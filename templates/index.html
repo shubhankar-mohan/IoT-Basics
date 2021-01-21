@@ -122,7 +122,7 @@ function makeCall() {
 function switch_call(val) {
   var request = new XMLHttpRequest()
 <!--  var SERVER_IP = http://localhost:8000-->
-  var SERVER_IP = "http://382fd30bcf8f.ngrok.io"
+  var SERVER_IP = "http://4f2b22067966.ngrok.io"
   request.open('GET', SERVER_IP+'/switch_device/'+val+'/', true)
   request.onload = function () {
     if (request.status == 200){
